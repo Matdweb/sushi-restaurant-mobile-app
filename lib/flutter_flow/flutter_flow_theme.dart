@@ -103,8 +103,8 @@ class LightModeTheme extends FlutterFlowTheme {
   @Deprecated('Use tertiary instead')
   Color get tertiaryColor => tertiary;
 
-  late Color primary = const Color(0xFF4B39EF);
-  late Color secondary = const Color(0xFF39D2C0);
+  late Color primary = const Color(0xFFB1464A);
+  late Color secondary = const Color(0xFFFFFFFF);
   late Color tertiary = const Color(0xFFEE8B60);
   late Color alternate = const Color(0xFFE0E3E7);
   late Color primaryText = const Color(0xFF14181B);
@@ -159,65 +159,65 @@ class ThemeTypography extends Typography {
 
   final FlutterFlowTheme theme;
 
-  String get displayLargeFamily => 'Inter Tight';
+  String get displayLargeFamily => 'Playfair Display';
   TextStyle get displayLarge => GoogleFonts.getFont(
-        'Inter Tight',
+        'Playfair Display',
         color: theme.primaryText,
         fontWeight: FontWeight.w600,
         fontSize: 64.0,
       );
-  String get displayMediumFamily => 'Inter Tight';
+  String get displayMediumFamily => 'Playfair Display';
   TextStyle get displayMedium => GoogleFonts.getFont(
-        'Inter Tight',
+        'Playfair Display',
         color: theme.primaryText,
         fontWeight: FontWeight.w600,
         fontSize: 44.0,
       );
-  String get displaySmallFamily => 'Inter Tight';
+  String get displaySmallFamily => 'Playfair Display';
   TextStyle get displaySmall => GoogleFonts.getFont(
-        'Inter Tight',
+        'Playfair Display',
         color: theme.primaryText,
         fontWeight: FontWeight.w600,
         fontSize: 36.0,
       );
-  String get headlineLargeFamily => 'Inter Tight';
+  String get headlineLargeFamily => 'Playfair Display';
   TextStyle get headlineLarge => GoogleFonts.getFont(
-        'Inter Tight',
+        'Playfair Display',
         color: theme.primaryText,
         fontWeight: FontWeight.w600,
         fontSize: 32.0,
       );
-  String get headlineMediumFamily => 'Inter Tight';
+  String get headlineMediumFamily => 'Playfair Display';
   TextStyle get headlineMedium => GoogleFonts.getFont(
-        'Inter Tight',
+        'Playfair Display',
         color: theme.primaryText,
         fontWeight: FontWeight.w600,
         fontSize: 28.0,
       );
-  String get headlineSmallFamily => 'Inter Tight';
+  String get headlineSmallFamily => 'Playfair Display';
   TextStyle get headlineSmall => GoogleFonts.getFont(
-        'Inter Tight',
+        'Playfair Display',
         color: theme.primaryText,
         fontWeight: FontWeight.w600,
         fontSize: 24.0,
       );
-  String get titleLargeFamily => 'Inter Tight';
+  String get titleLargeFamily => 'Playfair Display';
   TextStyle get titleLarge => GoogleFonts.getFont(
-        'Inter Tight',
+        'Playfair Display',
         color: theme.primaryText,
         fontWeight: FontWeight.w600,
         fontSize: 20.0,
       );
-  String get titleMediumFamily => 'Inter Tight';
+  String get titleMediumFamily => 'Playfair Display';
   TextStyle get titleMedium => GoogleFonts.getFont(
-        'Inter Tight',
+        'Playfair Display',
         color: theme.primaryText,
         fontWeight: FontWeight.w600,
         fontSize: 18.0,
       );
-  String get titleSmallFamily => 'Inter Tight';
+  String get titleSmallFamily => 'Playfair Display';
   TextStyle get titleSmall => GoogleFonts.getFont(
-        'Inter Tight',
+        'Playfair Display',
         color: theme.primaryText,
         fontWeight: FontWeight.w600,
         fontSize: 16.0,

@@ -48,6 +48,16 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           name: 'Login',
           path: '/login',
           builder: (context, params) => const LoginWidget(),
+        ),
+        FFRoute(
+          name: 'sushi2',
+          path: '/sushi2',
+          builder: (context, params) => const Sushi2Widget(),
+        ),
+        FFRoute(
+          name: 'sushi3',
+          path: '/sushi3',
+          builder: (context, params) => const Sushi3Widget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );
