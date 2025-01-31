@@ -295,13 +295,13 @@ class _SushiWidgetState extends State<SushiWidget> {
                         padding:
                             const EdgeInsetsDirectional.fromSTEB(0.0, 15.0, 0.0, 0.0),
                         child: FFButtonWidget(
-                          onPressed: () {
-                            print('Button pressed ...');
+                          onPressed: () async {
+                            context.pushNamed('sushi2');
                           },
                           text: 'Get Started 🡢',
                           options: FFButtonOptions(
                             width: MediaQuery.sizeOf(context).width * 0.85,
-                            height: 50.0,
+                            height: 59.92,
                             padding: const EdgeInsetsDirectional.fromSTEB(
                                 16.0, 0.0, 16.0, 0.0),
                             iconPadding: const EdgeInsetsDirectional.fromSTEB(
