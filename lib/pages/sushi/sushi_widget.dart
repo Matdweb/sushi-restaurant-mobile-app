@@ -143,6 +143,7 @@ class _SushiWidgetState extends State<SushiWidget> {
                                 alignment: const AlignmentDirectional(0.0, 0.0),
                                 child: Transform.rotate(
                                   angle: 48.0 * (math.pi / 180),
+                                  alignment: const AlignmentDirectional(0.5, -0.5),
                                   child: Opacity(
                                     opacity: 0.2,
                                     child: Align(
